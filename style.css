@@ -72,3 +72,15 @@ button:hover {
   background: none;
   color: hsl(0, 0%, 95%);
 }
+
+@media (max-width: 950px) {
+  .card {
+    width: 85%;
+  }
+}
+
+@media (max-width: 760px) {
+  .card {
+    flex-direction: column;
+  }
+}
