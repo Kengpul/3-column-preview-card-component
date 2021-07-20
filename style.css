@@ -16,6 +16,7 @@ body {
 .card {
   display: flex;
   width: 67%;
+  max-width: 965px;
   border-radius: 10px;
   overflow: hidden;
   margin: 0 auto;
